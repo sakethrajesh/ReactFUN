@@ -15,39 +15,57 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function BasicGrid() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        <Grid item xs={6}>
-          <Item>
-            <ImgMediaCard />
-          </Item>
+    <>
+      <br></br>
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={2}>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
+          <Grid item xs={6}>
+            <Item>
+              <ImgMediaCard />
+            </Item>
+          </Grid>
         </Grid>
-        <Grid item xs={6}>
-          <Item>
-            <ImgMediaCard />
-          </Item>
-        </Grid>
-        <Grid item xs={6}>
-          <Item>
-            <ImgMediaCard />
-          </Item>
-        </Grid>
-        <Grid item xs={6}>
-          <Item>
-            <ImgMediaCard />
-          </Item>
-        </Grid>
-        <Grid item xs={6}>
-          <Item>
-            <ImgMediaCard />
-          </Item>
-        </Grid>
-        <Grid item xs={6}>
-          <Item>
-            <ImgMediaCard />
-          </Item>
-        </Grid>
-      </Grid>
-    </Box>
+      </Box>
+    </>
   );
 }

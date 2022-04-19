@@ -13,7 +13,7 @@ export default function ImgMediaCard() {
         component="img"
         alt="food img"
         height="140"
-        image="/images/orange.jpg"
+        image="images/orange.jpg"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
